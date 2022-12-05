@@ -23,8 +23,10 @@ telegram-upload --to me --caption SERVER_03 /etc/x-ui-english/x-ui-english.db
 ```
 
 
+# Tag or Extra Flags
 
-telegram-upload
+
+
 
 Upload one or more files to Telegram using your personal account. The maximum file size is 2 GiB and by default they will be saved in your saved messages.
 
