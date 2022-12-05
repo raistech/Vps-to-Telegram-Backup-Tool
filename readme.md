@@ -17,6 +17,10 @@ telegram-upload --to http://t.me/my_backups98_bot --caption SERVER_03 /etc/x-ui-
 telegram-upload --to me --caption SERVER_03 /etc/x-ui-english/x-ui-english.db
 ```
 
+# Automate Task
+```
+(crontab -l; echo "@hourly sudo telegram-upload --to http://t.me/my_backups98_bot --caption SERVER_03 /etc/x-ui-english/x-ui-english.db") | sort -u | crontab -
+```
 
 
 
