@@ -8,12 +8,23 @@ bash <(curl -Ls https://raw.githubusercontent.com/lahirubro123/Vps-to-Telegram-B
 ```
 sudo pip3 install -U telegram-upload
 ```
+# Example
+```
+telegram-upload --to http://t.me/my_backups98_bot --caption SERVER_03 /etc/x-ui-english/x-ui-english.db
+```
+
+```
+telegram-upload --to me --caption SERVER_03 /etc/x-ui-english/x-ui-english.db
+```
+
+
+
 
 telegram-upload
 
 Upload one or more files to Telegram using your personal account. The maximum file size is 2 GiB and by default they will be saved in your saved messages.
 
-telegram-upload [OPTIONS] [FILES]...
+
 
 Options
 
